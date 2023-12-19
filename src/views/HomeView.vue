@@ -1,12 +1,8 @@
 <script setup>
-import HomeHeader from "@/components/HomeHeader.vue";
-import HomeMain from "@/components/HomeMain.vue";
-import HomeFooter from "@/components/HomeFooter.vue";
+import HomeChild from "@/components/HomeChild.vue";
 </script>
 
 <template>
   <h1>HomeView</h1>
-  <HomeHeader />
-  <HomeMain />
-  <HomeFooter />
+  <HomeChild />
 </template>
