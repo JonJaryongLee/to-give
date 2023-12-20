@@ -7,10 +7,13 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       <ul>
         <li>
-          <RouterLink to="/">Home</RouterLink>
+          <RouterLink :to="{ name: 'home' }">Home</RouterLink>
         </li>
         <li>
-          <RouterLink to="/about">About</RouterLink>
+          <RouterLink :to="{ name: 'about' }">About</RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'board' }">Board</RouterLink>
         </li>
       </ul>
     </nav>
